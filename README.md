@@ -1,18 +1,42 @@
+# Compound Interest Calculator
+
+This is a simple Java console application that calculates compound interest based on user input.
+
+## Features
+
+- Prompts the user for:
+  - Principal amount
+  - Annual interest rate (in %)
+  - Number of times interest is compounded per year
+  - Number of years invested
+- Calculates and displays:
+  - Final amount after the investment period
+  - Total interest earned
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
 
-## Folder Structure
+- Java Development Kit (JDK) 8 or higher
 
-The workspace contains two folders by default, where:
+### Folder Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src/` - Java source files
+- `bin/` - Compiled class files
+- `lib/` - External libraries (if any)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Build and Run
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Compile the program:
 
-## Dependency Management
+    ```sh
+    javac -d bin src/App.java
+    ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Run the program:
+
+    ```sh
+    java -cp bin App
+    ```
+
+## Example
